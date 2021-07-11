@@ -27,7 +27,8 @@ body{height: 100vh; display: flex; align-items: center; justify-content: center;
 @media(max-width:768px){
     body, #cars{height: auto;}
     #cars{grid-template-columns: 1fr; margin: 88px 25px; max-width: 70vw;}
-    #cars .car{grid-template-rows: 75px 69px 91px 48px;}
+    #cars .car{grid-template-rows: 75px 69px 1fr 48px;}
+    #cars .car p{margin-bottom: 31px;}
 }
 
 @media(max-width:580px){   
